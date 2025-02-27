@@ -1,0 +1,464 @@
+body
+{
+    color: #011b35;
+    background-color: #fce5cb;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.navegacao
+{
+    background-color: #f8bb75 !important;
+    color: white;
+}
+
+.produto
+{
+    background: url('/images/dots.png') no-repeat center center;
+}
+
+.down
+{
+    transform: translateY(-5px);
+}
+
+.up
+{
+    transform: translateY(5px);
+}
+
+.bg-white
+{
+    background-color: white;
+}
+
+.bg-dark-green
+{
+    background-color: #234f31 !important;
+    color: white !important;
+}
+
+.dark-green
+{
+    color: #234f31;
+}
+
+.green
+{
+    color: #008036;
+}
+
+.vantagens
+{
+    border: none;
+    text-align: center;
+    background-color: #ffefdf;
+}
+
+.qnt
+{
+    color: rgb(110, 110, 110);
+}
+
+.preco
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cta-premium
+{
+    color: white;
+    border: none;
+    background: linear-gradient(45deg,#ff9372, #800000);
+    border-radius: 24px;
+    font-size: larger;
+    box-shadow: 3px 3px 5px black;
+    padding: 0.5rem 1.5rem;
+    
+}
+
+.cta-premium:hover
+{
+    color: white;
+    box-shadow: 4px 4px 5px black;
+    transform: scale(1.01);
+    transition: transform,color 0.2s;
+    transition-timing-function: ease-in;
+}
+
+.cta
+{
+    color: white;
+    border: none;
+    background: linear-gradient(45deg,#d1c654, #008036);
+    border-radius: 24px;
+    font-size: larger;
+    box-shadow: 3px 3px 5px black;
+    padding: 0.5rem 1.5rem;
+}
+
+.cta:hover
+{
+    color: white;
+    box-shadow: 4px 4px 5px black;
+    transform: scale(1.01);
+    transition: transform 0.2s;
+    transition-timing-function: ease-in;
+}
+
+
+.py-6
+{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.py-7
+{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+/* EFFECTS */
+
+.absolute{
+    position: absolute;
+}
+
+.card1{
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.card2{
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.card3{
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.card4{
+    opacity: 0;
+    transition: opacity 2.5s ease;
+}
+
+.slide-in-right {
+    opacity: 0; 
+    transform: translateX(40px); 
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.slide-in-left {
+    opacity: 0; 
+    transform: translateX(-40px); 
+    transition: opacity 1.5s ease, transform 1.5s ease;
+}
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+} 
+  
+.animate {
+    opacity: 1;
+    transform: translateX(0);
+}
+ 
+/* BACKGROUNDS */
+
+/* PARALLAX */
+
+.parallax {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+  }
+  
+  .parallax1 {
+    background-image: url('/images/multileaf.png');
+    width: 400px;
+    height: 200px;
+    top: 10%;
+    left: 45%;
+  }
+  
+  .parallax2 {
+    background-image: url('/images/orange3.png');
+    width: 150px;
+    height: 800px;
+    top: 190%;
+    right: 0%;
+  }
+  
+  .parallax3 {
+    background-image: url('/images/left.png');
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 0%;
+  }
+
+  .parallax4 {
+    background-image: url('/images/effect1.png');
+    width: 400px;
+    height: 400px;
+    top: 10%;
+    left: -10%;
+  }
+
+  .parallax5 {
+    background-image: url('/images/right.png');
+    width: 300px;
+    height: 800px;
+    top: 10%;
+    right: 0%;
+  }
+
+  .parallax6 {
+    background-image: url('/images/lime2.png');
+    width: 200px;
+    height: 200px;
+    top: 65%;
+    left: 0%;
+  }
+
+  .parallax7 {
+    background-image: url('/images/strawberry_left.png');
+    width: 200px;
+    height: 200px;
+    top: 145%;
+    left: -0%;
+  }
+
+  .parallax8 {
+    background-image: url('/images/multileaf.png');
+    width: 400px;
+    height: 400px;
+    top: 255%;
+    left: -10%;
+  }
+
+/* FONTS */
+.be-vietnam-pro-thin {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-extralight {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-light {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-regular {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-medium {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-semibold {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-bold {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-extrabold {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-black {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .be-vietnam-pro-thin-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .be-vietnam-pro-extralight-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .be-vietnam-pro-light-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .be-vietnam-pro-regular-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .be-vietnam-pro-medium-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .be-vietnam-pro-semibold-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .be-vietnam-pro-bold-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .be-vietnam-pro-extrabold-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .be-vietnam-pro-black-italic {
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  .poppins-thin {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
