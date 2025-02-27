@@ -2,7 +2,7 @@
 # Objetivo do Projeto
 - Criação landing page para o produto Flexozil, um suplemento alimentar voltado para a saúde articular.
   
-#Critérios de avaliação
+# Critérios de avaliação
 - estrutura responsiva
 - design focado nas estratégias de conversão
 - garantindo que a página seja otimizada para maximizar a taxa de conversão e engajamento dos visitantes.
