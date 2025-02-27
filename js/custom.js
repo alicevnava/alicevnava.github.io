@@ -28,3 +28,7 @@ document.addEventListener("scroll", function () {
     }
     efeitos.forEach((classe) => criarObserver(classe));
   });
+
+  function mensagem() {
+    alert("Redirecionamento para um checkout!");
+  } 
